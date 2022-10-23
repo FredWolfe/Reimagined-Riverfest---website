@@ -19,6 +19,48 @@
   .container.ticket{
    margin: 0px;
   }
+
+   /* BUT TICKET BAR */
+
+   .lower_caption{
+      display: inline-block;
+      position: absolute;
+      top: 112%;
+      left: 25%;
+      font-family: var(--Slackey);
+      font-size: 1.9rem;
+      transition: top ease 0.5s;
+   }
+   
+   .lower_caption img{
+      width: 40px;
+   }
+   
+   .lower_caption .one{
+      margin-left: 2rem;
+   }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1520px){
+   /* BUT TICKET BAR */
+
+   .lower_caption{
+      display: inline-block;
+      position: absolute;
+      top: 112%;
+      left: 25%;
+      font-family: var(--Slackey);
+      font-size: 3rem;
+      transition: top ease 0.5s;
+   }
+   
+   .lower_caption img{
+      width: 40px;
+   }
+   
+   .lower_caption .one{
+      margin-left: 2rem;
+   }
 }
 
 /* TABLET MODES */
@@ -46,12 +88,42 @@
        overflow:hidden;
      }
 
+     /* BUT TICKET BAR */
+
+     .lower_caption{
+      display: inline-block;
+      position: absolute;
+      top: 111%;
+      left: 10%;
+      font-family: var(--Slackey);
+      font-size: 1.9rem;
+      transition: top ease 0.5s;
+   }
+   
+   .lower_caption img{
+      width: 36px;
+   }
+   
+   .lower_caption .one{
+      margin-left: 2rem;
+   }
+
      /* MEDIA SECTION */
 
      .sponsor_logo {
       width: 15%;
       margin: 15px 10px 25px;
       
+  }
+
+  /* MAP SECTION */
+  #map .container h3{
+   font-size: 1.5rem;
+  }
+
+  /* MEDIA PARTNER SECTION */
+ #media h2{
+   font-size: 1.5rem;
   }
 
   /* BANNER_LOGO */
@@ -74,7 +146,7 @@
 
 }
 
-/* MOBILE-PHONES */
+/* MOBILE-PHONES ALL SIZES */
 @media only screen and (max-width: 450px){
 
    body{
@@ -106,6 +178,41 @@
       right: 35%;
   }
 
+  /* BUY TICKET BAR */
+
+  .lower_caption{
+   display: inline-block;
+   position: absolute;
+   top: 103%;
+   left: 5%;
+   font-family: var(--Slackey);
+   font-size: 1rem;
+   transition: top ease 0.5s;
+}
+
+.lower_caption img{
+   width: 25px;
+}
+
+.lower_caption .one{
+   margin-left: 2rem;
+}
+
+/* EXPERIENCE SECTION IMAGES */
+
+.experience .col-md-6 img {
+   margin-bottom: 15px;
+}
+
+/* MEDIA PARTNERS SECTION */
+#media h2{
+   font-size: 1.5rem;
+}
+
+/* MAP SECTION */
+#map .container h3{
+   font-size: 1.5rem;
+}
 
    /* FOOTER SECTION */
    footer .col-lg-3 .col-md-6{
@@ -121,4 +228,55 @@
    padding-left: 0px;
   }
 
+}
+
+
+
+/* MOBILE PHONES MEDIUM */
+@media only screen and (max-width: 385px)and (min-width:300px){
+
+   /* TICKET LOWER BAR */
+
+   .lower_caption{
+      display: inline-block;
+      position: absolute;
+      top: 102%;
+      left: 2%;
+      font-family: var(--Slackey);
+      font-size: .9rem;
+      transition: top ease 0.5s;
+   }
+   
+   .lower_caption img{
+      width: 25px;
+   }
+   
+   .lower_caption .one{
+      margin-left: 2rem;
+   }
+}
+
+
+/* MOBILE PHONES SMALL */
+@media only screen and (max-width: 325px)and (min-width:300px){
+
+   /* TICKET LOWER BAR */
+
+   .lower_caption{
+      display: inline-block;
+      position: absolute;
+      top: 101.5%;
+      left: 2%;
+      font-family: var(--Slackey);
+      font-size: .7rem;
+      transition: top ease 0.5s;
+   }
+   
+   .lower_caption img{
+      width: 25px;
+   }
+   
+   .lower_caption .one{
+      margin-left: 2rem;
+   }
 }

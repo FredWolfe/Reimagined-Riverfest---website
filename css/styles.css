@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6{
 /* NAVBAR STYLES */
 
 header .navbar a {
-    font-family: var(--Slackey);
+    font-family: var(--Rock-Salt);
     font-size: 0.9em;
     color: #F4F5DB;
 }
@@ -77,9 +77,11 @@ header .navbar .navbar-brand img {
 
 header .nav-link:hover {
     color: #fff468;
+    /* color: #019F30; */
 }
 
-header .nav-link:active, :visited {
+header .nav-link:active, :visited, :focus{
+    color: #019F30;
     color: #fff468;
 }
 
@@ -87,9 +89,9 @@ header .nav-link {
     transition: all 0.3s ease-in-out;
 }
 
-.ticket span {
+/* .ticket span {
     font-family: var(--Slackey);
-}
+} */
 
 
 /* BANNER IMAGE IN HEADER SECTION */
@@ -131,6 +133,35 @@ header .nav-link {
 
 /* EXPERIENCE SECTION */
 
+.bar_{
+    width: 100%;
+    height: 17.56vmin;
+    position: relative;
+}
+
+.lower_caption{
+    display: inline-block;
+    position: absolute;
+    top: 110%;
+    left: 18%;
+    font-family: var(--Slackey);
+    font-size: 3rem;
+    transition: top ease 0.5s;
+}
+
+.lower_caption:hover{
+    color: whitesmoke;
+    transform: translateX(-10%);
+}
+
+.lower_caption img{
+    width: 100px;
+}
+
+.lower_caption .one{
+    margin-left: 2rem;
+}
+
 .experience .container {
     padding: 3% 9%;
 }
@@ -143,19 +174,19 @@ header .nav-link {
 }
 
 .experience .container h2 {
-    font-size: 3.5vmin;
+    font-size: 5vmin;
     font-weight: bold;
-    font-family: var(--Rock-Salt);
+    font-family: var(--Slackey);
     padding: 3.5em 0em .5em;
 }
 
 /* MEDIA PARTNERS */
 
 #media h2 {
-    font-family: var(--Rock-Salt);
+    font-family: var(--Slackey);
     font-weight: bold;
     text-align: left;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 25px;
 }
 
@@ -185,9 +216,9 @@ header .nav-link {
 }
 
 .about .container .about-content h2{
-    font-size: 3.5vmin;
+    font-size: 5vmin;
     font-weight: bold;
-    font-family: var(--Rock-Salt);
+    font-family: var(--Slackey);
     padding: 1.5em 0em 1.2em;
     text-align: center;
 }
@@ -210,10 +241,10 @@ header .nav-link {
 }
 
 #map .container h3{
-    font-family: var(--Rock-Salt);
+    font-family: var(--Slackey);
     font-weight: bold;
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 25px;
 }
 
@@ -239,6 +270,10 @@ footer .column i{
 footer .column i+i{
     padding: 0 0.5em;
 }
+
+/* .footer_cap{
+    color: whitesmoke;
+} */
 
 footer p>span a{
     text-decoration: none;
