@@ -1,13 +1,13 @@
 /* PALM-TOP PCs */
 
-@media only screen and (max-width: 1028px) and (min-width:1020px){
+@media only screen and (max-width: 1028px) and (min-width:1020px) {
 
-   .banner_image{
+   .banner_image {
       position: absolute;
       margin: 200px auto;
       right: 30%;
       width: 35%;
-  }
+   }
 
 }
 
@@ -56,7 +56,7 @@
 
    /* BACKGROUND IMAGE IN HEADER SECTION */
    .masthead {
-      height: 150vh;
+      height: 100vh;
       overflow: hidden;
    }
 
@@ -71,10 +71,15 @@
    .lower {
       display: inline-block;
       text-align: center;
-      padding: 8% 0% 0%;
+      padding: 8% 0% 15%;
    }
 
-   .lower h1{
+   .lower_ticket {
+      width: 30%;
+      padding: 10px 0px 0px 10px;
+   }
+
+   .lower h1 {
       font-family: var(--Rock-Salt);
       font-weight: bold;
       /* font-size: 2.5rem; */
@@ -121,7 +126,7 @@
 
 /* ONLY TABLET MODE */
 
-@media only screen and (max-width: 770px) and (min-width:740px){
+@media only screen and (max-width: 770px) and (min-width:740px) {
 
    /* .banner_image{
       position: absolute;
@@ -130,16 +135,15 @@
       width: 45%;
   } */
 
-  .banner_image{
-   bottom: 50%;
-   width: 30vh;
-   right: 4%;
-}
+   .banner_image {
+      width: 50vh;
+      right: 4%;
+   }
 
-video{
-   width: 100%;
-   height: 40vmax; 
-}
+   video {
+      width: 100%;
+      height: 40vmax;
+   }
 
 }
 
@@ -159,13 +163,18 @@ video{
       margin: 12px;
    }
 
+   .navbar-nav li {
+      padding-top: 10.5px;
+      padding-bottom: 10.5px;
+   }
+
    .navbar-brand {
       width: 196px;
    }
 
    /* HEADER SECTION  */
    .masthead {
-      height: 95.5vh;
+      height: 75.5vh;
       overflow: hidden;
    }
 
@@ -175,21 +184,26 @@ video{
       right: 35%;
    } */
 
-   .banner_image{
-      bottom: 30%;
-      width: 25vh;
+   .banner_image {
+      top: 4%;
+      width: 35vh;
       right: 4%;
    }
 
-   video{
+   video {
       width: 100%;
-      height: 40vmax; 
+      height: 40vmax;
    }
 
    /* Lower ticket */
 
    .lower {
-      padding: 10% 0 0;
+      padding: 10% 0% 25%;
+   }
+
+   .lower_ticket {
+      width: 35%;
+      padding: 10px 0px 0px 10px;
    }
 
    /* EXPERIENCE SECTION IMAGES */
@@ -231,14 +245,14 @@ video{
 @media only screen and (max-width: 385px)and (min-width:300px) {
 
    .lower_ticket {
-      width: 20%;
-      padding-left: 10px;
+      width: 35%;
+      padding: 10px 0px 0px 10px;
    }
 
    .lower {
       display: inline-block;
       text-align: center;
-      padding: 10% 0% 0%;
+      padding: 10% 0% 25%;
       font-family: var(--Rock-Salt);
       font-weight: bold;
       font-size: 0.5px;
@@ -274,17 +288,17 @@ video{
    } */
 
    .lower_ticket {
-      width: 20%;
+      width: 35%;
       padding-left: 10px;
    }
 
    .lower {
       display: inline-block;
       text-align: center;
-      padding: 10% 0% 0%;
+      padding: 10% 0% 20%;
    }
 
-   .lower h1{
+   .lower h1 {
       font-family: var(--Rock-Salt);
       font-weight: bold;
       font-size: 1.2rem;
