@@ -12,7 +12,12 @@ section {
     align-items: center;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #603813;
 }
 
@@ -29,7 +34,6 @@ h1,h2,h3,h4,h5,h6{
 } */
 
 
-
 /* NAVBAR STYLES */
 
 header .navbar a {
@@ -40,14 +44,13 @@ header .navbar a {
 
 .masthead {
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
 }
 
 header .nav-item:last-child {
@@ -67,8 +70,8 @@ header .navbar .navbar-brand img {
     width: 40%;
 }
 
-.ticket img{
-    width: 30%; 
+.ticket img {
+    width: 30%;
 }
 
 .ticket i {
@@ -80,7 +83,9 @@ header .nav-link:hover {
     /* color: #019F30; */
 }
 
-header .nav-link:active, :visited, :focus{
+header .nav-link:active,
+:visited,
+:focus {
     color: #019F30;
     color: #fff468;
 }
@@ -96,24 +101,40 @@ header .nav-link {
 
 /* BANNER IMAGE IN HEADER SECTION */
 
-.banner_image{
+.banner_image {
     position: absolute;
     margin: 200px auto;
     right: 35%;
+    width: 30%;
+}
+
+/* VIDEO IN HEADER SECTION */
+.wrapper{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+}
+
+video{
+   width: 100%;
+   height: 35vmax; 
 }
 
 /* header .row .col-md-5 {
     padding: 4.2vmin 1vmin;
 } */
 
-/* header .row .col-md-6 {
-    padding: 22vmin 1vmin;
-    padding-bottom: 35vmin;
-    font-family: var(--Rock-Salt);
+/* header .row .col-lg-12 h1{
+    font-family: var(--Slackey);
+    color: #F6A002;
 } */
 
-/* header .row .col-md-5 img {
+/* header .row .col-lg-12 img {
     width: 50%;
+    text-align: center;
+    margin-top: 10vmin;
 } */
 
 /* header .container .col-md-6 span {
@@ -122,52 +143,29 @@ header .nav-link {
     font-size: 3.5vmin;
 } */
 
-/* header .container .col-md-6 h1 {
+/* header .container .col-lg-12 h1 {
     font-size: 8vmin;
     font-weight: bold;
     padding: 0.1em 0em;
+    color: #F6A002;
+    font-family: var(--Slackey);
+    text-align: left;
 } */
 
 
-/*/*//*/*//* MAINPAGE SECTIONS *//*/*//*/*/
+/*/*/
+/*/*/
+/* MAINPAGE SECTIONS */
+/*/*/
+/*/*/
 
 /* EXPERIENCE SECTION */
-
-.bar_{
-    width: 100%;
-    height: 17.56vmin;
-    position: relative;
-}
-
-.lower_caption{
-    display: inline-block;
-    position: absolute;
-    top: 110%;
-    left: 18%;
-    font-family: var(--Slackey);
-    font-size: 3rem;
-    transition: top ease 0.5s;
-}
-
-.lower_caption:hover{
-    color: whitesmoke;
-    transform: translateX(-10%);
-}
-
-.lower_caption img{
-    width: 100px;
-}
-
-.lower_caption .one{
-    margin-left: 2rem;
-}
 
 .experience .container {
     padding: 3% 9%;
 }
 
 .experience .col-md-6 img {
-    opacity: 0.8;
     width: 100%;
     border-radius: 0.2em;
     border: 1px solid #000000;
@@ -180,9 +178,28 @@ header .nav-link {
     padding: 3.5em 0em .5em;
 }
 
+/* lower ticket h1 */
+
+.lower {
+    display: inline-block;
+    text-align: center;
+    padding: 2% 0% 0%;
+    font-family: var(--Rock-Salt);
+    font-weight: 400;
+}
+
+.lower a {
+    text-decoration: none;
+}
+
+.lower_ticket {
+    width: 15%;
+    padding-left: 10px;
+}
+
 /* MEDIA PARTNERS */
 
-#media h2 {
+#ads h2 {
     font-family: var(--Slackey);
     font-weight: bold;
     text-align: left;
@@ -190,23 +207,35 @@ header .nav-link {
     padding: 25px;
 }
 
-.sponsor_logo {
-    width: 9%;
-    margin: 30px 20px 50px;
-    
+.sponsor {
+    text-align: center;
 }
 
-#media .container {
+.sponsor_logo {
+    width: 20%;
+    margin: 30px 50px 50px;
+}
+
+.media {
+    text-align: center;
+}
+
+.media_logo {
+    width: 9%;
+    margin: 30px 20px 50px;
+}
+
+#ads .container {
     padding: 7% 0%;
 }
 
 /* ABOUT SECTION */
 
-.about{
+.about {
     padding: 8vmin 0;
 }
 
-.about .container .about-content{
+.about .container .about-content {
     background: white;
     border-radius: 3px;
     text-align: left;
@@ -215,7 +244,7 @@ header .nav-link {
     z-index: 1;
 }
 
-.about .container .about-content h2{
+.about .container .about-content h2 {
     font-size: 5vmin;
     font-weight: bold;
     font-family: var(--Slackey);
@@ -223,14 +252,14 @@ header .nav-link {
     text-align: center;
 }
 
-.about.about-content p{
+.about.about-content p {
     font-size: 0.9em;
     color: rgba(0, 0, 0, 0.5);
 }
 
 /* MAP */
 
-#map{
+#map {
     background-color: #f3a000;
     padding: 7% 15%;
 }
@@ -240,7 +269,7 @@ header .nav-link {
     background: none !important;
 }
 
-#map .container h3{
+#map .container h3 {
     font-family: var(--Slackey);
     font-weight: bold;
     text-align: left;
@@ -250,24 +279,25 @@ header .nav-link {
 
 /* FOOTER */
 
-footer{
+footer {
     background: #f3a000;
     overflow-x: hidden;
     padding: 14vmin 16vmin;
 }
 
-footer h2, h4{
+footer h2,
+h4 {
     font-family: var(--Slackey);
     padding: 10px;
     font-weight: bold;
     font-size: 1rem;
 }
 
-footer .column i{
+footer .column i {
     color: #F4F5DB
 }
 
-footer .column i+i{
+footer .column i+i {
     padding: 0 0.5em;
 }
 
@@ -275,18 +305,18 @@ footer .column i+i{
     color: whitesmoke;
 } */
 
-footer p>span a{
+footer p>span a {
     text-decoration: none;
 }
 
-footer p>span a{
+footer p>span a {
     color: #F4F5DB;
 }
 
 
 /* STICKY CLASS */
 
-.sticky{
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
@@ -311,7 +341,7 @@ footer p>span a{
 
 }
 
- .bg::before{
+.bg::before {
     content: '';
     position: absolute;
     margin-bottom: 2.5rem;
@@ -320,4 +350,4 @@ footer p>span a{
     width: 100%;
     background-color: #f3a000;
     height: 100%;
-} 
+}
