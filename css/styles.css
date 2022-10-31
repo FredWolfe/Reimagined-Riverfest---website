@@ -290,6 +290,7 @@ footer {
     background: #f3a000;
     overflow-x: hidden;
     padding: 14vmin 16vmin;
+    text-align: center;
 }
 
 footer h2,
@@ -318,6 +319,11 @@ footer p>span a {
 
 footer p>span a {
     color: #F4F5DB;
+}
+
+.social-icon{
+    padding: 5px;
+    text-align: center;
 }
 
 
